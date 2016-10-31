@@ -68,9 +68,9 @@ on start, is relatively easy.
 #. Right-click on ``syncthing.bat`` and press "Create Shortcut"
 #. Right-click the shortcut file ``syncthing.bat - Shortcut`` and click
    **Copy**
-#. Click **Start**, click **All Programs**, then click **Startup**.
-   Right-click on **Startup** then click **Open**.
-   |Setup Screenshot|
+#. Startup location differs by Windows version:
+    #. **Windows XP - 8.1**: Click **Start**, click **All Programs**, then click **Startup**. Right-click on **Startup** then click **Open**.  |Setup Screenshot|
+    #. **Windows 10**: Open the "Run" dialog box by pressing the Windows key + R. Type "shell:startup" (without the quotes) in the "Open" edit box and click "OK".
 #. Paste the shortcut (right-click in the folder and choose **Paste**,
    or press ``CTRL+V``)
 
